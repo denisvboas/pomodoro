@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FocusTimer - Pomodoro</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="timer">
+        <span class="minutes">25</span>
+        <span>:</span>
+        <span class="seconds">00</span>
+      </div>
+
+      <div class="controls">
+        <button class="play">
+          <img src="./assets/botao-play.png" alt="" />
+        </button>
+        <button class="pause hide">
+          <img src="./assets/pausa.png" alt="" />
+        </button>
+        <button class="stop hide">
+          <img src="./assets/stop.png" alt="" />
+        </button>
+        <button class="set">
+          <img src="./assets/alarm-clock.png" alt="" />
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <button class="sound-on hide">
+        <img src="./assets/som-ligado.png" alt="" />
+      </button>
+      <button class="sound-off ">
+        <img src="./assets/som-desligado.png" alt="" />
+      </button>
+    </footer>
+
+    <script src="js/index.js" type="module"></script>
+  </body>
+  
+</html>
